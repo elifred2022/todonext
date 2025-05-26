@@ -1,5 +1,11 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Mi tienda con nextjs",
+  description: "Esta es la paguna principal de tienda",
+  keywords: "tienda, online, ecomerce",
+};
+
 function TeindaLayout({ children }) {
   return (
     <>
