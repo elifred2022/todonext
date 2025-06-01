@@ -17,7 +17,7 @@ export const metadata = {
 }; 
 
 className={`${geistSans.variable} ${geistMono.variable}`}*/
-
+import "./globals.css";
 import Navbar from "./components/Navbar";
 import { Roboto } from "next/font/google";
 

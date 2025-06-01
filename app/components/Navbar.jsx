@@ -1,12 +1,16 @@
 import React from 'react'
 import Link from "next/link";
+import "./Navbar.css";
 
 function Navbar() {
   return (
     <div>
-      <nav>
-          <h1>Nav bar</h1>
-          <ul>
+      <nav className='navbar py-5'>
+
+        <li>
+              <Link href="/"> <h1 className='text-3xl font-bold'>Nextjs curso</h1></Link>
+            </li>
+           <ul>
             <li>
               <Link href="/">Home</Link>
             </li>

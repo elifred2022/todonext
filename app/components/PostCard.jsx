@@ -7,10 +7,12 @@ function PostCard({post}) {
     <div>
       {
         
-            <div>
-              <Link href={`/posts/${post.id}`} ><h3>{post.id}. {post.title} </h3></Link>
+            <div className="bg-grey-950 p-10">
+              <Link href={`/posts/${post.id}`} >
+              
+              <h3 className="text-xl font-bold mb-4">{post.id}. {post.title} </h3></Link>
                 
-                <p>{post.body} </p>
+                <p className="texslate-300">{post.body} </p>
                 <button onClick={()=> {alert("click funciona")} } >click</button>
             </div>
       
