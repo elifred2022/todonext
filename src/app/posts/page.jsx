@@ -1,5 +1,5 @@
 import React from 'react'
-import PostCard from '../components/PostCard'; //importacion de manera tradicional
+import PostCard from '../../components/PostCard'; //importacion de manera tradicional
 //import PostCard from '@/components/PostCard'; //importacion con alias
 import "./Post.css";
 
